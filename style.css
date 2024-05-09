@@ -1,0 +1,94 @@
+/* style.css */
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4rem;
+  color: #fa90fc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  min-height: 100vh;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: #48344b;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.container-ul {
+  background: #fa90fc;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  width: 400px;
+  margin-bottom: 20px;
+  border-top: 3px solid #66004d;
+  word-wrap: break-word;
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+p {
+  max-width: 350px;
+  white-space: wrap;
+  width: 25ch; /* Set the desired width for the text */
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 764px;
+    padding: 60px;
+  }
+
+  .container-ul {
+    width: 770px;
+  }
+
+  li {
+    width: 750px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    max-width: 750px;
+    width: 95ch; /* Set the desired width for the text */
+  }
+}
